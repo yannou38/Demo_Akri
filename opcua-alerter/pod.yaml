@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: opctest
+spec:
+  selector:
+    matchLabels:
+      octopusexport: OctopusExport
+  replicas: 4
+  strategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        octopusexport: OctopusExport
+    spec:
+      hostNetwork: false
+      containers:
+        - name: opctest
+          image: registry-service.docker-registry.svc:5000/opctest:latest
+          imagePullPolicy: Always

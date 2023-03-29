@@ -1,0 +1,3 @@
+To use this code, you'll need a free courier account. 
+then replace YOURTOKEN in the code with the given token, and YOURMAIL with the mail that need to receive the alert.
+you'll also need an external email to use to send the mail, courier just make it easier to link everything together for sending and shouldn't be used in production
