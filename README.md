@@ -3,7 +3,7 @@ A Demo for Akri on a k3s cluster
 It can run on a single node k3 cluster
 
 
-Instructions (more detail on the [wiki](https://github.com/yannou38/Demo_Akri/wiki):
+Instructions (way more detail on the [wiki](https://github.com/yannou38/Demo_Akri/wiki)):
 - Install a k3s single node
 - Install a custom docker registry
 - Install Loki
