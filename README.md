@@ -3,15 +3,14 @@ A Demo for Akri on a k3s cluster
 It can run on a single node k3 cluster
 
 
-Demo:
-Install a k3s single node (link TODO)
-Install a custom docker registry (link TODO)
-Install Loki (link TODO)
-Build the opcua-alerter image and push it on the local repository
-Install Akri in the cluster with the node IP
-
-Change IP in the opc-ua-sensor-simulator code to set the node IP(it's set as 192.168.236.3)
-run it with python
+Instructions (more detail on the [wiki](https://github.com/yannou38/Demo_Akri/wiki):
+- Install a k3s single node
+- Install a custom docker registry
+- Install Loki
+- Build the opcua-alerter image and push it on the local repository
+- Install Akri in the cluster with the node IP
+- Change IP in the opc-ua-sensor-simulator code to set the node IP(it's set as 192.168.236.3)
+- Run it with python
 
 
 What should happen:
